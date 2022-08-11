@@ -1,0 +1,57 @@
+body
+{
+	background-color:#44444d;
+}
+header
+{
+	color:white;
+	position:relative;
+	bottom:30px;
+
+}
+    .grid {
+position: relative;
+border: 1px solid #000;
+padding-top: 42px;
+background-color:black;
+width:80%;
+position:relative;
+left:12%;
+top:130px;
+}
+.grid-container {
+	
+overflow-y: auto;
+height: 200px;
+}
+table {
+border-spacing: 0;
+
+width:100%;
+}
+
+td, th {
+padding: 10px 10px;
+}
+th {
+height: 0;
+line-height: 0;
+padding-top: 0;
+padding-bottom: 0;
+color: transparent;
+border: none;
+white-space: nowrap;
+}
+tr{
+    background-color:rgb(187, 255, 0);
+}
+th div{
+position: absolute;
+background: transparent;
+color:white;
+padding: 9px 25px;
+top: 0;
+margin-left: -25px;
+line-height: normal;
+border-left: 1px solid #800;
+}
